@@ -1,5 +1,5 @@
 <?php
-
+    $nome = null;
 ?>
 
 <!doctype html>
@@ -8,7 +8,10 @@
         <meta charset="UTF-8">
         <title>Curso PHP FUNDAMENTAL</title>
     </head>
-
     <body>
+        <?php
+            echo "Nome = " . $nome . "</br>";
+            echo is_null($nome);
+        ?>
     </body>
 </html>

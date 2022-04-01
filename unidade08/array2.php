@@ -1,5 +1,6 @@
 <?php
-
+    $megasena = array(01,10,19,34,35,45);
+    sort($megasena);
 ?>
 
 <!doctype html>
@@ -10,9 +11,14 @@
     </head>
 
     <body>
-        <?php 
-            $_1telefone = "Matheus Fontenelle"; 
-            echo $_1telefone;
+        <?php
+            echo max($megasena)."</br>";
+            echo min($megasena)."</br>";
         ?>
+        <pre>
+        <?php 
+            print_r($megasena);
+        ?>
+        </pre>
     </body>
 </html>
