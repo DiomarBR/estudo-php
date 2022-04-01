@@ -11,6 +11,7 @@
 
     <body>
         <?php 
+            
             echo "existe o elemento? " . in_array("Laranja", $_salada);
         ?>
     </body>
