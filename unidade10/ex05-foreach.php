@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php                    
-        $_salada = array("","","");
+        $_salada = array("abacaxi","","");
     ?>
 </body>
 </html>

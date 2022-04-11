@@ -7,7 +7,14 @@
     </head>
     <body>
         <?php 
-
+            $numero1 = 5;
+            $numero2 = "5";
+            
+            if($numero1 === $numero2){
+                echo "Sao iguais";
+            }else {
+                echo "nao sao iguais";
+            }
         ?>
     </body>
 </html>

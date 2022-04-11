@@ -7,7 +7,12 @@
     </head>
     <body>
         <?php 
-
+        $_fumante = false;
+        if (!$_fumante) {
+            echo "VC nao e fumante.";
+        } else {
+            echo "VC e um fumante.";
+        }
         ?>
     </body>
 </html>
