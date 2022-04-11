@@ -10,9 +10,9 @@
     </head>
 
     <body>
-        <?php 
+        <?php
             print_r($_salada)
-            echo "existe o elemento? " . in_array("Laranja", $_salada);
+        echo"existe o elemento?" . in_array("Uva", $_salada);
         ?>
     </body>
 </html>

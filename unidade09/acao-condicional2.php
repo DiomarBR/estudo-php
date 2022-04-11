@@ -6,8 +6,28 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
-
+        <?php
+            $dia = "Quarta";
+            switch($dia) {
+                case "segunda":
+                    echo "hoje e segunda";
+                    break;
+                case "terça":
+                    echo "hoje e terça";
+                    break;
+                case "Quarta":
+                    echo "hoje e terça";
+                    break;
+                case "Quinta":
+                    echo "hoje e Quinta";
+                    break;
+                case "sexta":
+                    echo "hoje e sexta";
+                    break;
+                default:
+                    echo "e final de semana!!";
+                break;
+            }
         ?>
     </body>
 </html>

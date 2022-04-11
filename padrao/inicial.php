@@ -1,3 +1,6 @@
+<?php
+    $olam = array("o")
+?>
 <!doctype html>
 <html>
     <head>
@@ -5,6 +8,11 @@
         <title>Curso PHP FUNDAMENTAL</title>
     </head>
     <p>ola mundo</p>
+    <input type="text">
+    <input type="submit">
+    <?php
+        echo "Você digitou: ", ["teste"], "<br>";
+    ?>
     <body>
     </body>
 </html>

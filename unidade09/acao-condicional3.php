@@ -7,7 +7,9 @@
     </head>
     <body>
         <?php 
-
+            $_idade = 17;
+            $_maioridade = ($_idade >= 18)? "de maior" : "de menor";
+            echo $_maioridade;
         ?>
     </body>
 </html>

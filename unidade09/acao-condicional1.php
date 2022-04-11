@@ -7,7 +7,27 @@
     </head>
     <body>
         <?php 
+            $_a = 6;
+            $_b = 6;
 
+            if ($_a > $_b) {
+                echo "a e maior que B";
+            }
+            elseif ($_a == $_b) {
+                echo "a e igual a B";
+            }
+            else {
+                echo "a e menor q b";
+            }
+            switch ($) {
+                case 'value':
+                    
+                    break;
+                
+                default:
+                    
+                    break;
+            }
         ?>
     </body>
 </html>
